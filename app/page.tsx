@@ -7,7 +7,7 @@ import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <main className="h-screen overflow-hidden">
+    <main className="h-screen overflow-x-hidden relative">
       <Header /> 
       <Body />
    </main>
